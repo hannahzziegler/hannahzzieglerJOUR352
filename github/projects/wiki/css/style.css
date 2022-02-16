@@ -9,7 +9,7 @@ h2 {
 }
 
 .facts p {
-    background-color: #c69189;
+    background-color: #fde7dc;
     padding: 10px;
 }
 
@@ -17,6 +17,7 @@ img {
     width: 50%;
     margin: 15px
 }
+
 .nearby li {
     list-style-type: square;
 }
