@@ -10,6 +10,10 @@ h2 {
     text-transform: uppercase;
 }
 
+main {
+    margin: 15px
+}
+
 .facts p {
     background-color: #fde7dc;
     padding: 15px;
@@ -18,7 +22,6 @@ h2 {
 
 img {
     width: 50%;
-    margin: 15px
 }
 
 .nearby li {
@@ -28,4 +31,8 @@ img {
 a {
     color: #23395d;
     text-decoration: none
+}
+
+.titles {
+    line-height: 10px;
 }
