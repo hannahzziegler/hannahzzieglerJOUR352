@@ -15,6 +15,14 @@ main {
     margin: 15px
 }
 
+.caption p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: .7em;
+    line-height: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+
 .facts p {
     background-color: #fde7dc;
     padding: 15px;
@@ -28,12 +36,13 @@ p {
 
 img {
     width: 50%;
+    margin-top: 15px;
 }
 
 .nearby li {
     list-style-type: square;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'Lora', serif;
+    font-weight: 400;
 }
 
 a {
@@ -43,4 +52,9 @@ a {
 
 .titles {
     line-height: 10px;
+    font-weight: 500; 
+}
+
+footer {
+    font-weight: 600; 
 }
