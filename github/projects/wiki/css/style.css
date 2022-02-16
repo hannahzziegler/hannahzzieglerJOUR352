@@ -21,3 +21,8 @@ img {
 .nearby li {
     list-style-type: square;
 }
+
+a {
+    color: #23395d;
+    text-decoration: none
+}
