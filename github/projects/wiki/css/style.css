@@ -5,12 +5,18 @@ h1 {
 
 h2 {
     color: #9e8380;
-    font-family: 
+    font-family:
 }
 
-
+.facts p {
+    background-color: #c69189;
+    padding: 10px;
+}
 
 img {
     width: 50%;
     margin: 15px
+}
+.nearby li {
+    list-style-type: square;
 }
