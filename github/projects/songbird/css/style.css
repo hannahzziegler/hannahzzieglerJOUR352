@@ -13,6 +13,10 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
 main {
     font-family: 'Merriweather', serif;
 }
@@ -26,8 +30,17 @@ main {
 }
 
 .tracklisting {
-    border: 1px solid black;
-    padding-left: 3px;
+    border: 4px solid #000000;
+    padding-left: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.facts {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    background-color: #fde7dc;
+    padding: 15px;
+    line-height: 20px
 }
 
 
