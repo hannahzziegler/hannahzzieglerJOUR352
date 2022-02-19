@@ -16,6 +16,24 @@ main {
     margin: 15px
 }
 
+p {
+    font-family: 'Lora', serif;
+}
+
+img {
+    width: 50%;
+    margin-top: 15px;
+}
+
+a {
+    color: #23395d;
+    text-decoration: none
+}
+
+footer {
+    font-weight: 600;
+}
+
 .caption p {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
@@ -33,31 +51,13 @@ main {
     font-weight: 500;
 }
 
-p {
-    font-family: 'Lora', serif;
-}
-
-img {
-    width: 50%;
-    margin-top: 15px;
-}
-
 .nearby li {
     list-style-type: square;
     font-family: 'Lora', serif;
     font-weight: 400;
 }
 
-a {
-    color: #23395d;
-    text-decoration: none
-}
-
 .titles {
     line-height: 10px;
     font-weight: 500;
-}
-
-footer {
-    font-weight: 600;
 }
