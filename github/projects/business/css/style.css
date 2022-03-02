@@ -14,10 +14,12 @@ whiteish = F5F5F5
     font-family: 'Exo 2', sans-serif;
     color: #F5F5F5;
     letter-spacing: 3px;
+    padding: 10px;
 }
 
 nav {
     text-align: center;
+    margin: 30px 0;
 }
 
 body {
@@ -27,7 +29,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #A37871;
+    color: #A37871
 }
 
 h1 {
@@ -36,6 +38,6 @@ h1 {
 }
 
 h2 {
-    font-size: .9em;
+    font-size: .8em;
     font-weight: 300;
 }
