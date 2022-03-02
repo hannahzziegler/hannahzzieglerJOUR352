@@ -1,0 +1,41 @@
+/* 
+font-family: 'Barlow', sans-serif; 
+font-family: 'Exo 2', sans-serif;
+font-family: 'DM Serif Display', serif
+black = #11121B
+light grey = CDD3CE
+brownish = A37871
+whiteish = F5F5F5
+*/
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: .7em;
+    font-family: 'Exo 2', sans-serif;
+    color: #F5F5F5;
+    letter-spacing: 3px;
+}
+
+nav {
+    text-align: center;
+}
+
+body {
+    background: #11121B;
+    color: #F5F5F5;
+    font-family: 'Barlow', sans-serif;
+}
+
+.nav-link:hover {
+    color: #A37871;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+}
+
+h2 {
+    font-size: .9em;
+    font-weight: 300;
+}
