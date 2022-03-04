@@ -72,6 +72,14 @@ h2 {
 
 @media (min-width=450px) {
     h1 {
-        font-size: 2em;
+        font-size: 40em;
+    }
+
+    h2 {
+        font-size: 20em;
+    }
+
+    .nav-link {
+        font-size: 15em;
     }
 }
