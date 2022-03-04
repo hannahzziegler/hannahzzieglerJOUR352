@@ -70,8 +70,8 @@ h2 {
     font-weight: 300;
 }
 
-@media (max-width=375px) {
-    h2 {
-        color: #CDD3CE;
+@media (min-width=450px) {
+    h1 {
+        font-size: 2em;
     }
 }
