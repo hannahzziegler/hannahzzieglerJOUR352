@@ -69,3 +69,9 @@ h2 {
     font-size: .8em;
     font-weight: 300;
 }
+
+@media (max-width=375px) {
+    h2 {
+        color: #CDD3CE;
+    }
+}
