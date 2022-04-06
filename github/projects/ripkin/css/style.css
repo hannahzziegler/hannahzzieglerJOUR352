@@ -80,7 +80,7 @@ video {
 
 /* SECTIONS */
 
-section {
+section, footer {
     width: 65%;
     margin: 0 auto;
     padding-top: 5%;
@@ -114,6 +114,12 @@ figcaption {
     padding-bottom: 5%;
     padding-right: 5%;
     padding-left: 5%;
+}
+
+.chart {
+    background-color: #ffffff;
+    padding: .2%;
+
 }
 
 /* MEDIA QUERIES */
