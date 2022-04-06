@@ -78,6 +78,20 @@ video {
     width: 100%;
 }
 
+/* SECTIONS */
+
+section {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.intro {
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width:1000px) {
@@ -146,5 +160,5 @@ video {
         width: 95%;
     }
 
-    
+
 }
