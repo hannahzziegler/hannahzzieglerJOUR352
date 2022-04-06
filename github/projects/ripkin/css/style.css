@@ -92,6 +92,16 @@ section {
     letter-spacing: 1.2px;
 }
 
+.graphic {
+    padding: 5%;
+    background-color: #ffffff;
+}
+
+img {
+    padding: 5%;
+    width: 100%;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width:1000px) {
