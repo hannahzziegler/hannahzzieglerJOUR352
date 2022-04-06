@@ -40,6 +40,11 @@ a:hover {
     color: #df4601;
 }
 
+.name {
+    text-transform: uppercase;
+    color: #df4601;
+}
+
 /* HEADER */
 
 header {
