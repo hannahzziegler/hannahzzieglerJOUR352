@@ -24,3 +24,14 @@ p {
     font-family: 'Archivo', sans-serif;
     color: #f5f5f5;
 }
+
+a {
+    color: #f5f5f5;
+    text-decoration-color: #df4601;
+    font-weight: 600;
+}
+
+a.hover {
+    background-color: #f5f5f5;
+    color: #df4601;
+}
