@@ -101,8 +101,6 @@ section, footer {
 
 img {
     padding-top: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
     width: 100%;
 }
 
@@ -112,8 +110,6 @@ figcaption {
     font-family: 'Barlow Condensed', sans-serif;
     color: #d4c9c3;
     padding-bottom: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
 }
 
 .chart {
