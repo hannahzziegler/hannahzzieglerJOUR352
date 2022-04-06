@@ -94,6 +94,10 @@ section, footer {
     padding-bottom: 5%;
 }
 
+footer {
+    padding-top: 15%;
+}
+
 .intro {
     text-transform: uppercase;
     letter-spacing: 1.2px;
