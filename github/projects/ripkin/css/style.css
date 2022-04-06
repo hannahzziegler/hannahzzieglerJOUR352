@@ -112,9 +112,13 @@ figcaption {
     padding-bottom: 5%;
 }
 
+.chart-caption {
+    padding-left: 1%;
+}
+
 .chart {
     background-color: #ffffff;
-    padding: .2%;
+    padding: 3%;
 
 }
 
