@@ -54,6 +54,8 @@ a.hover {
 
 header {
     height: 100vh;
+    margin-top: 15%;
+    margin-right: 2%;
 }
 
 @media (min-width:1000px) {
