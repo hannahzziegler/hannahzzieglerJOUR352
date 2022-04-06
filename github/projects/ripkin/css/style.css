@@ -124,6 +124,7 @@ figcaption {
 }
 
 .chart-caption {
+    font-size: .8em;
     padding-left: 1%;
 }
 
@@ -228,5 +229,12 @@ blockquote {
         width: 95%;
     }
 
+    figcaption {
+        font-size: .9em;
+    }
+
+    .chart-caption {
+        font-size: .8em;
+    }
 
 }
