@@ -92,14 +92,28 @@ section {
     letter-spacing: 1.2px;
 }
 
+/* VISUALS */
+
 .graphic {
     padding: 5%;
     background-color: #ffffff;
 }
 
 img {
-    padding: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
     width: 100%;
+}
+
+figcaption {
+    font-size: .8em;
+    font-style: italic;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #d4c9c3;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 /* MEDIA QUERIES */
