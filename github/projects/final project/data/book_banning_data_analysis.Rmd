@@ -16,7 +16,6 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r cars}
 
-
 library(tidycensus)
 library(tidyverse)
 library(janitor)
@@ -53,16 +52,12 @@ top_banned_books <- author_title_book_bans %>%
 
 write_csv(top_banned_books, "top_banned_books.csv")
 
+state_district_book_bans %>%
+  summarise(
+    total_bans = n())
 
+top_10_state_bans %>%
+  mutate(percent_total_bans = (count/1586)*100)
 
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
