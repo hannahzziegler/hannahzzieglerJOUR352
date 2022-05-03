@@ -29,7 +29,8 @@ top_10_state_bans <- state_district_book_bans %>%
   group_by(State) %>%
   summarise(count = n()) %>%
   arrange(desc(count)) %>%
-  head(10)
+  head(10) %>%
+  mutate(percent_of_all_bans = (count/1586)*100)
 
 write_csv(top_10_state_bans, "top_10_state_bans.csv")
 
@@ -56,8 +57,29 @@ state_district_book_bans %>%
   summarise(
     total_bans = n())
 
-top_10_state_bans %>%
-  mutate(percent_total_bans = (count/1586)*100)
+type_of_ban <- state_district_book_bans %>%
+  group_by(`Origin of Challenge`) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count)) %>%
+  mutate(percent = (count/1586)*100)
+
+state_district_book_bans %>% 
+  group_by(`Type of Ban`) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+
+full_bans <- state_district_book_bans %>%
+  filter(`Type of Ban` == "Banned from Libraries and Classrooms") %>%
+  group_by(State) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+
+pending_bans <- state_district_book_bans %>%
+  filter(`Type of Ban` == "Banned Pending Investigation") %>%
+  group_by(State) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+
 
 ```
 
