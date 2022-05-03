@@ -42,7 +42,7 @@ states_for_map <- state_district_book_bans %>%
 write_csv(states_for_map, "states_for_map.csv")
 
 district_bans <- state_district_book_bans %>%
-  group_by(District) %>%
+  group_by(District, State) %>%
   summarise(count = n()) %>%
   arrange(desc(count))
 
@@ -52,6 +52,7 @@ top_banned_books <- author_title_book_bans %>%
   arrange(desc(count))
 
 write_csv(top_banned_books, "top_banned_books.csv")
+
 
 
 ```
