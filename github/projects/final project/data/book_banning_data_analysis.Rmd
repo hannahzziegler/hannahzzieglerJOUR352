@@ -83,7 +83,24 @@ pending_bans <- state_district_book_bans %>%
 write_csv(pending_bans, "pending_bans.csv")
 write_csv(full_bans, "full_bans.csv")
 
+spikes_in_banning <- state_district_book_bans %>%
+  group_by(`Date of Challenge/Removal`) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
 
+write_csv(spikes_in_banning, "spikes_in_banning.csv")
+
+sept_state_spikes <- state_district_book_bans %>%
+  filter(`Date of Challenge/Removal` == "September 2021") %>%
+  group_by(State) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+  
+dec_state_spikes <- state_district_book_bans %>%
+  filter(`Date of Challenge/Removal` == "December 2021") %>%
+  group_by(State) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
 
 ```
 
