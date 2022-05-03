@@ -51,6 +51,7 @@ top_banned_books <- author_title_book_bans %>%
   summarise(count = n()) %>%
   arrange(desc(count))
 
+write_csv(top_banned_books, "top_banned_books.csv")
 
 
 ```
