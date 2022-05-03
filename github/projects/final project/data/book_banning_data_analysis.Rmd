@@ -80,6 +80,10 @@ pending_bans <- state_district_book_bans %>%
   summarise(count = n()) %>%
   arrange(desc(count))
 
+write_csv(pending_bans, "pending_bans.csv")
+write_csv(full_bans, "full_bans.csv")
+
+
 
 ```
 
