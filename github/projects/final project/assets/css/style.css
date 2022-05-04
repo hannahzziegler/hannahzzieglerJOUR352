@@ -39,30 +39,44 @@ p {
 }
 
 footer {
-    font-family: 'Baskerville', serif;
-    font-weight: 700;
-    font-size: .6em;
-    padding: 20px;
+    padding: 1.5em;
     background-color: #BFBFBF;
     position: absolute;
     width: 100%;
-    padding-top: 6em;
-    padding-bottom: 6em;
-    text-align: center;
-}
-
-h5 {
-    color: black;
-    font-size: 1.7em;
+    padding-top: 3em;
 }
 
 .fa {
     padding: 0 20px 0 0;
-    font-size: 1.7em;
+    font-size: 1em;
     text-decoration: none;
     color: black;
+    text-align: center;
+}
+
+.contact_icons {
+    text-align: center;
 }
 
 .fa:hover {
     color: #B50717;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1em;
+}
+
+.name {
+    font-size: .6em;
 }
