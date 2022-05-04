@@ -101,3 +101,9 @@ i {
     padding-top: 2em;
     padding-bottom: 2em;
 }
+
+h3 {
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+}
