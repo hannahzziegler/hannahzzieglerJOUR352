@@ -53,11 +53,12 @@ footer {
 
 h6 {
     color: black;
+    font-size: 1.7em;
 }
 
 .fa {
     padding: 0 20px 0 0;
-    font-size: 1.2em;
+    font-size: 1.7em;
     text-decoration: none;
     color: black;
 }
