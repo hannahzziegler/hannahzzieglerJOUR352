@@ -100,10 +100,16 @@ i {
 .carousel {
     padding-top: 2em;
     padding-bottom: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 
 h3 {
     text-shadow: 4px 4px 6px black;
     font-family: 'Libre Baskerville', serif;
     color: white;
+}
+
+.banned_covers {
+    padding-bottom: 2em;
 }
