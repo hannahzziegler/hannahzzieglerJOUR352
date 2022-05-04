@@ -15,9 +15,19 @@ p {
 }
 
 .first_p {
-    padding-top: 10em;
+    padding-top: 7em;
 }
 
 .last_p {
     padding-bottom: 10em;
+}
+
+.graphs {
+    padding: 3em;
+}
+
+.collage {
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 3em;
 }
