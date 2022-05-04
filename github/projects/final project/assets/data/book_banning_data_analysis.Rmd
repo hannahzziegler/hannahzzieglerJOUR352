@@ -102,5 +102,8 @@ dec_state_spikes <- state_district_book_bans %>%
   summarise(count = n()) %>%
   arrange(desc(count))
 
+author_title_book_bans %>%
+  filter(State == "Maryland")
+
 ```
 
