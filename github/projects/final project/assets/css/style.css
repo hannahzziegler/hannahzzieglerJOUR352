@@ -12,6 +12,8 @@ p {
     font-weight: 400;
     padding-top: 1em;
     font-size: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .first_p {
@@ -30,4 +32,8 @@ p {
     width: 100%;
     padding-top: 5em;
     padding-bottom: 3em;
+}
+
+.photo {
+    padding: 3em
 }
