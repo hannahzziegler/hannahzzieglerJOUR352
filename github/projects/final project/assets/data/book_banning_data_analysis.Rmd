@@ -105,5 +105,27 @@ dec_state_spikes <- state_district_book_bans %>%
 author_title_book_bans %>%
   filter(State == "Maryland")
 
+author_title_book_bans %>%
+  filter(State == "Texas") %>%
+  select(Title) %>%
+  group_by(Title) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+
+
+author_title_book_bans %>%
+  filter(State == "Pennsylvania") %>%
+  select(Title) %>%
+  group_by(Title) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+
+author_title_book_bans %>%
+  filter(State == "Florida") %>%
+  select(Title) %>%
+  group_by(Title) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+
 ```
 

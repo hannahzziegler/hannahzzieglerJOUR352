@@ -5,3 +5,18 @@ img {
 body {
     background-color: black;
 }
+
+p {
+    color: #ECECEC;
+    font-family: 'Montserrate', sans-serif;
+    font-weight: 400;
+    padding-top: 1em;
+}
+
+.first_p {
+    padding-top: 10em;
+}
+
+.last_p {
+    padding-bottom: 10em;
+}
