@@ -87,9 +87,16 @@ h6 {
 }
 
 h1 {
-    font-family: 'Baskerville', serif;
+    font-family: 'Libre Baskerville', serif;
     color: #B50717;
     padding-top: 2em;
     padding-bottom: 1em;
     text-align: center;
+}
+
+i {
+    font-family: 'Libre Baskerville', serif;
+    color: #BFBFBF;
+    font-style: normal;
+    margin-top: 5px;
 }
