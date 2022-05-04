@@ -96,3 +96,8 @@ i {
     font-style: normal;
     margin-top: 5px;
 }
+
+.carousel {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
