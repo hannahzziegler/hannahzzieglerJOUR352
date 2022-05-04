@@ -85,3 +85,11 @@ h6 {
 .name {
     font-size: .8em;
 }
+
+h1 {
+    font-family: 'Baskerville', serif;
+    color: #B50717;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+}
