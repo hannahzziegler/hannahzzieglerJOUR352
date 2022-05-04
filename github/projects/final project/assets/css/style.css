@@ -46,15 +46,14 @@ footer {
     background-color: #BFBFBF;
     position: absolute;
     width: 100%;
-    padding-top: 5em;
-    padding-bottom: 5em;
-    text-align: right;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    text-align: center;
 }
 
-h6 {
+h5 {
     color: black;
     font-size: 1.7em;
-    padding-right: 4em;
 }
 
 .fa {
@@ -62,7 +61,6 @@ h6 {
     font-size: 1.7em;
     text-decoration: none;
     color: black;
-    padding-right: 4em;
 }
 
 .fa:hover {
