@@ -113,3 +113,22 @@ h3 {
 .banned_covers {
     padding-bottom: 2em;
 }
+
+.row {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+h4 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.3em;
+    color: #BFBFBF;
+    letter-spacing: .1em;
+    line-height: 2em;
+}
+
+.col-lg-8 {
+    color: #B50717;
+}
